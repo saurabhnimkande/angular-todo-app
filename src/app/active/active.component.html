@@ -1,0 +1,20 @@
+<div [class]="'title'">Active</div>
+<div *ngFor="let todoData of activeData" [class]="'activeContainer'">
+    <div>
+        {{todoData.name}}
+    </div>
+    <div>
+        {{todoData.description}}
+    </div>
+    <div>
+        {{todoData.date}}
+    </div>
+    <div>
+        <button (click)="callMoveToPending(todoData)" [class]="'pendingBtn'">
+            Move to Pending
+        </button>
+        <button (click)="callMoveToDone(todoData)" [class]="'doneBtn'"> 
+            Move to Done
+        </button>
+    </div>
+</div>

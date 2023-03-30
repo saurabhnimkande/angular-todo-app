@@ -1,0 +1,10 @@
+.mainTodoContainer {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+}
+.mainTodoContainer > div {
+  width: 33.33%;
+  border: 5px solid grey;
+  border-radius: 10px;
+}

@@ -1,0 +1,35 @@
+.title {
+    font-weight: 600;
+    font-size: 3rem;
+    padding-left: 10px;
+}
+.inactiveContainer {
+  padding: 10px;
+}
+.inactiveContainer > div {
+  margin-bottom: 10px;
+  color: red;
+}
+.activeBtn {
+    background-color: rgb(3, 160, 233);
+    outline: none;
+    border: none;
+    padding: 0.75rem;
+    color: white;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+.activeBtn:hover {
+    background-color: rgb(96, 204, 254);
+}
+.doneBtn {
+    background-color: rgb(14, 199, 14);
+    outline: none;
+    border: none;
+    padding: 0.75rem;
+    color: white;
+    cursor: pointer;
+}
+.doneBtn:hover {
+    background-color: rgb(78, 249, 78);
+}
